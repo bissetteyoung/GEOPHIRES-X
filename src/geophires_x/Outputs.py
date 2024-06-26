@@ -1642,6 +1642,9 @@ class Outputs:
 
                 if model.surfaceplant.enduse_option.value in [EndUseOptions.ELECTRICITY]:
                     f.write(f'      Estimated Jobs Created:                                 {model.economics.jobs_created.value}\n')
+                    f.write(f'      Estimated Property Tax Paid:                            {model.economics.property_tax_created.value}\n')
+                    f.write(f'      Estimated Government Royalties Paid:                    {model.economics.gov_royalties_created.value}\n')
+                    f.write(f'      Estimated Total Royalties Paid:                         {model.economics.total_royalties_created.value}\n')
 
 
                 f.write(NL)

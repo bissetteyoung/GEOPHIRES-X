@@ -60,6 +60,8 @@ class Units(IntEnum):
     POWERPERUNITVOLUME = auto()
     DECAY_RATE=auto()
     INFLATION_RATE=auto()
+    JOBS_PER_ENERGY=auto()
+    ROYALTY_PER_ENERGY=auto()
 
 
 class TemperatureUnit(str, Enum):
@@ -350,3 +352,5 @@ class Decay_RateUnit(str,Enum):
 class Inflation_RateUnit(str,Enum):
     """Decay rate Units"""
     KPASCALPERYEAR = "kPa/yr"
+
+

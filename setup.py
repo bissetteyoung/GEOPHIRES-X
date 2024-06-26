@@ -69,7 +69,6 @@ setup(
         'jsons',
         'mpmath',
         'deepdiff',
-        'mysql.connector',
         'cryptography',
         'pandas',
         'matplotlib',
